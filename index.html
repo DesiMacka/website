@@ -22,12 +22,51 @@
 
   <!-- Custom styles for this template -->
   <link href="css/agency.min.css" rel="stylesheet">
+<style>
+body, html {
+  height: 100%;
+}
 
+.parallax {
+  /* The image used */
+  background-image: url('img/header-bg.jpg');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax .intro{
+  padding-top: 220px;
+  padding-bottom: 0px;
+  font-size: 22px;
+  font-style: italic;
+  line-height: 22px;
+  margin-bottom: 25px;
+  text-align: center;
+  color: white;
+  font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+.parallax .heading_intro{
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: center;
+  color: white;
+  margin-bottom: 25px;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+    </style>
 </head>
 
 <body id="page-top">
 
-  <!-- Navigation -->
+  <!-- navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top"></a>
@@ -52,20 +91,16 @@
         </ul>
       </div>
     </div>
-  </nav>
+  </nav> 
 
 
-  <!-- Header -->
-  <header class="masthead">
-    <div class="container">
-      <div class="intro-text">
-        <div class="intro-lead-in">Hi, Welcome To My Page!</div>
-        <div class="intro-heading text-uppercase">It's Nice To Meet You</div>
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
-      </div>
+<div class="parallax">
+    <div class="intro">Hi, It's Nice To Meet You!
     </div>
-  </header>
-
+    <div class="heading_intro">WELCOME TO MY WEBSITE!</div>
+    </div>
+    
+    
 
   <!-- Portfolio Grid -->
   <section class="bg-light page-section" id="portfolio">
@@ -73,7 +108,7 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Projects</h2>
-          <h3 class="section-subheading text-muted">A list of my most recent projects</h3>
+          <h3 class="section-subheading text-muted">Here are my most recent projects.</h3>
         </div>
       </div>
       <div class="row">
@@ -98,10 +133,10 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">
+            <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>This website</h4>
+            <h4>My Website</h4>
             <p class="text-muted">Graphic Design</p>
           </div>
         </div>
@@ -112,11 +147,11 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="">
+            <img class="img-fluid" src="img/portfolio/03-thumbnail.png" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Finish</h4>
-            <p class="text-muted">Identity</p>
+            <h4>New Project</h4>
+            <p class="text-muted">Coming Soon!</p>
           </div>
         </div>
       </div>
@@ -145,7 +180,7 @@
                   <h4 class="subheading">College of DuPage</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">My academic journey started at COD (College of DuPage) in Wheaton, IL. COD gave me the opportunity to explore my interests and develop my love for engineering. I got to represent COD at a catapult competition, as well as volunteer for Engineering Olympics and StemCON hosted by the college. Most importantly, I decided to join Society of Women Engineers Club where I was elected vice-president. This experience ended May 2017 when I graduated with an Associate Degree in Engineering Science, Honors.</p>
+                  <p class="text-muted">My academic journey started at COD (College of DuPage) in Glen Ellyn, IL. COD gave me the opportunity to explore my interests and develop my love for engineering. I got to represent COD at a catapult competition, as well as volunteer for Engineering Olympics and StemCON hosted by the college. Most importantly, I decided to join Society of Women Engineers Club where I was elected vice-president. This experience ended May 2017 when I graduated with an Associate Degree in Engineering Science, Honors.</p>
                 </div>
               </div>
             </li>
@@ -186,7 +221,7 @@
                   <h4 class="subheading">Plant Engineering UPS</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">Being fresh out of college, the job market is scary and insanely competitive. With a lot of hours spent researching and preparing, I managed to land a job at one of the world's most renown corporations, UPS. I loved data mining in school and I was thrilled to explore databases. I am currently working as Plant Engineering Data Specialist at Hodgkins, IL. </p>
+                  <p class="text-muted">Being fresh out of college, the job market is scary and insanely competitive. With a lot of hours spent researching and preparing, I managed to land a job at one of the world's most renown corporations, UPS. I loved data mining in school and I was thrilled to explore databases. I am currently working as a Plant Engineering Data Specialist at Hodgkins, IL. </p>
                 </div>
               </div>
             </li>
@@ -272,10 +307,10 @@
         <div class="col-md-4">
           <ul class="list-inline quicklinks">
             <li class="list-inline-item">
-              <a href="#">Privacy Policy</a>
+              <a href="#">Woah, you made it all the way here!</a>
             </li>
             <li class="list-inline-item">
-              <a href="#">Terms of Use</a>
+              <a href="#"></a>
             </li>
           </ul>
         </div>
@@ -301,10 +336,10 @@
                 <!-- Project Details Go Here -->
                 <h2 class="text-uppercase">Alexa Skill</h2>
                 <p class="item-intro text-muted">Innovative solution to getting your latest Reddit news on your Amazon Alexa device. </p>
-                <iframe width="700" height="400"
+                <iframe width="500" height="400"
                         src="https://www.youtube.com/embed/tgbNymZ7vqY">
                   </iframe>
-                <p>This Alexa skill demonstrates the use of PRAW, an external API for Reddit. Upon invocation, Alexa will provide to the user a list of the top ten news on the subreddit r/news by default. The user can specify if Alexa should read hot, top or new posts on any given subreddit. </p>
+                <p>This Alexa skill demonstrates the use of PRAW, an external API for Reddit. Upon invocation, Alexa will provide to the user a list of the top ten news on the subreddit r/news by default. The user can specify if Alexa should read hot, top or new posts on any given subreddit.</p>
                 <ul class="list-inline">
                   <li>Date: September 2019</li>
                   <li>Language: Python 3.7 </li>
@@ -340,14 +375,19 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">aaa.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <h2 class="text-uppercase">beqja.com</h2>
+                <p class="item-intro text-muted">This is my personal website.</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
+                <p>This is my personal website created using HTML5 and Bootstrap. You are looking at my first attempt at front end development. </p>
                 <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Explore</li>
-                  <li>Category: Graphic Design</li>
+                  <li>Date: August 2019</li>
+                  <li>Language: HTML5 </li>
+                  <li>Frameworks: Bootstrap </li>
+                  <li>
+                    <a href="https://github.com/DesiMacka/website" target="_blank">
+                        Source code
+                      </a>
+                    </li>
                 </ul>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
@@ -374,14 +414,14 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <h2 class="text-uppercase">New Project</h2>
+                <p class="item-intro text-muted">Coming Soon!</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.png" alt="">
+                <p>Coming soon!</p>
                 <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Finish</li>
-                  <li>Category: Identity</li>
+                  <li>Date: Future </li>
+                  <li>Language: </li>
+                  <li>Frameworks:  </li>
                 </ul>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
